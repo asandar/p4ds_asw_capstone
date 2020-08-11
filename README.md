@@ -24,7 +24,7 @@ Goal
 
 -   Deploy to Heroku
 
-We have deployed a simple example on : https://api-app-capstone.herokuapp.com/ Here's the list of its endpoints:
+We have deployed a simple example on : https://app-asw.herokuapp.com/ Here's the list of its endpoints:
 
 1.  /employee, method = GET Static Endpoint, returning all data of employee.
 
@@ -40,12 +40,19 @@ We have deployed a simple example on : https://api-app-capstone.herokuapp.com/ H
 
 -   5 (AAC audio file)
 
-1.  /country/, method = GET Dynamic Endpoint, returning total sales base on country. input country_nm with the country name
+3.  /country/, method = GET Dynamic Endpoint, returning total sales base on country. input country_nm with the country name
 
-2.  /albums, method = GET Static Endpoint, returning total sales and mean of album.
+4.  /albums, method = GET Static Endpoint, returning total sales and mean of album.
 
-3.  /sales, method = GET Static Endpoint, returning total sales of Sales Support Agent per-month period.
+5. /empsales, method = GET Static Endpoint, returning total sales of Sales Support in every country.
 
-4.  /empsales, method = GET Static Endpoint, returning total sales of Sales Support in every country.
+6. /sales, method = GET Static Endpoint, returning total sales of Sales Support Agent per-month period
+ 
 
 If you want to try it, you can access (copy-paste the link as below) :
+- https://app-asw.herokuapp.com/employee
+- https://app-asw.herokuapp.com/media/1
+- https://app-asw.herokuapp.com/country/USA
+- https://app-asw.herokuapp.com//albums
+- https://app-asw.herokuapp.com/empsales
+- https://app-asw.herokuapp.com/sales
